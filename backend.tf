@@ -2,8 +2,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "terraform.ytcdata.co.za"
-    key    = "remote.tfstate"
-    region = "us-east-1"
+    bucket = "terraform.ytcdata.com"
+    key    = "key/remote.tfstate"
+    region = "eu-central-1"
   }
 }
